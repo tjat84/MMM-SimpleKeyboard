@@ -16,6 +16,11 @@ Module.register("MMM-SimpleKeyboard", {
     start: function() {
         this.keyboardVisible = false;
     },
+handleBackspace: function(input) {
+    // Remove last character from the input
+    return input.slice(0, -1);
+},
+
 getDom: function() {
     let wrapper = document.createElement("div");
 
@@ -31,6 +36,7 @@ getDom: function() {
 
     return wrapper;
 },
+
 
 initializeKeyboard: function(keyboardDiv) {
     console.log("Initializing keyboard...");
