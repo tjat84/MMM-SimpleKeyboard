@@ -1,0 +1,2 @@
+### MMM-SimpleKeyboard
+This module integrates the public-use Simple Keyboard into a Magic Mirror. It currently is a required component of my GoogleCalendarEventAdder module, which sends a notification to pop up the keyboard. 
